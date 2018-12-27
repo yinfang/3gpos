@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/gray_b4"
+    android:orientation="horizontal"
+    android:padding="1px"
+    android:weightSum="1.5" >
+
+    <TextView
+        android:id="@+id/project"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_weight="0.5"
+        android:background="@color/white"
+        android:gravity="center"
+        android:textColor="@color/gray31"
+        android:textIsSelectable="false"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/quantity"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="1px"
+        android:layout_weight="0.5"
+        android:background="@color/white"
+        android:gravity="center"
+        android:textColor="@color/gray31"
+        android:textIsSelectable="false"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="1px"
+        android:layout_weight="0.5"
+        android:background="@color/white"
+        android:gravity="center"
+        android:textColor="@color/gray31"
+        android:textIsSelectable="false"
+        android:textSize="14sp" />
+
+</TableRow>

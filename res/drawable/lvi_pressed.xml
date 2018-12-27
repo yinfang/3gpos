@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <solid android:color="#eefa8200" />
+
+    <gradient
+        android:angle="90"
+        android:centerX="0.5"
+        android:centerY="0.5"
+        android:endColor="@color/lvi_pressed_end"
+        android:startColor="@color/lvi_pressed_start"
+        android:type="linear" />
+
+</shape>

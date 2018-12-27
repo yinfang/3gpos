@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/header" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/lvi"
+            android:clickable="true"
+            android:onClick="salePointSetting" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:text="@string/menu_salepoint"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/my_gray3"
+                android:textSize="17sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginRight="25dp"
+                android:contentDescription="@string/dummy"
+                android:src="@drawable/arrow2" />
+        </FrameLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_b4" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/lvi"
+            android:clickable="true"
+            android:onClick="IPSetting" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:text="@string/menu_setting"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/my_gray3"
+                android:textSize="17sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginRight="25dp"
+                android:contentDescription="@string/dummy"
+                android:src="@drawable/arrow2" />
+        </FrameLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_b4" />
+
+        <FrameLayout
+            android:id="@+id/versionSetting"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/lvi"
+            android:clickable="true"
+            android:onClick="versionSetting" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/menu_version"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/my_gray3"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/versionCode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/light_green2"
+                    android:textIsSelectable="false"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginRight="25dp"
+                android:contentDescription="@string/dummy"
+                android:src="@drawable/arrow2" />
+        </FrameLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_b4" />
+
+        <FrameLayout
+            android:id="@+id/versionSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/lvi"
+            android:clickable="true"
+            android:onClick="versionSwitch" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/menu_versionSwitch"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/my_gray3"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/versionType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/light_green2"
+                    android:textIsSelectable="false"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginRight="25dp"
+                android:contentDescription="@string/dummy"
+                android:src="@drawable/arrow2" />
+        </FrameLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_b4" />
+
+        <FrameLayout
+            android:id="@+id/update"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/lvi"
+            android:clickable="true"
+            android:onClick="update" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:text="@string/menu_update"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/my_gray3"
+                android:textSize="17sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginRight="25dp"
+                android:contentDescription="@string/dummy"
+                android:src="@drawable/arrow2" />
+        </FrameLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_b4" />
+
+        <FrameLayout
+            android:id="@+id/updateVersion"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/lvi"
+            android:clickable="true"
+            android:onClick="updateVersion" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:text="@string/menu_updateVersion"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/my_gray3"
+                android:textSize="17sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginRight="25dp"
+                android:contentDescription="@string/dummy"
+                android:src="@drawable/arrow2" />
+        </FrameLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_b4" />
+
+        <FrameLayout
+            android:id="@+id/modifyQuantityPrice"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/lvi"
+            android:clickable="true"
+            android:onClick="modifyQuantityPrice" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/menu_modify"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/my_gray3"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/modify"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/light_green2"
+                    android:textIsSelectable="false"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginRight="25dp"
+                android:contentDescription="@string/dummy"
+                android:src="@drawable/arrow2" />
+        </FrameLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_b4" />
+    </LinearLayout>
+
+</LinearLayout>

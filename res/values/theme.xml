@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 自定义主题：没有标题栏，规定按钮的样式为CustomButton中定义的 -->
+    <style name="CustomTheme" parent="android:style/Theme.NoTitleBar">
+        <item name="android:buttonStyle">@style/CustomButton</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <!-- <item name="android:background">@drawable/background</item> -->
+        <!-- <item name="android:editTextStyle">@style/CustomEditText</item> -->
+    </style>
+
+</resources>

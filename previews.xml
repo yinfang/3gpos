@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<previews>
+
+    <preview
+        name="Cddd"
+        activity="com.clubank.consumer.SalesStatisticsActivity"
+        config="layout-sw320dp-w320dp-h533dp-normal-long-port-notnight-hdpi-finger-keyssoft-nokeys-navexposed-trackball-800x480-v17"
+        device="3.7in WVGA (Nexus One)"
+        devicestate="Portrait"
+        target="Android 4.2.2"
+        theme="@style/CustomTheme" >
+    </preview>
+    <preview
+        name="S4(5in 1920x1080)"
+        activity="com.clubank.consumer.SalesStatisticsActivity"
+        config="layout-sw320dp-w320dp-h533dp-normal-long-port-notnight-hdpi-finger-keyssoft-nokeys-navexposed-trackball-800x480-v17"
+        device="3.7in WVGA (Nexus One)"
+        devicestate="Portrait"
+        target="Android 4.2.2"
+        theme="@style/CustomTheme" >
+    </preview>
+
+</previews>

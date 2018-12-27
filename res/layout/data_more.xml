@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:visibility="gone" >
+
+    <TextView
+        android:id="@+id/button"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@color/light_gray"
+        android:clickable="true"
+        android:freezesText="false"
+        android:gravity="center"
+        android:onClick="moreData"
+        android:text="@string/lbl_MoreData"
+        android:textColor="@color/my_gray3"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:visibility="gone"
+        android:orientation="horizontal" >
+
+        <ProgressBar
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_Getting" />
+    </LinearLayout>
+
+</LinearLayout>
